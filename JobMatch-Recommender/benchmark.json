@@ -1,0 +1,20 @@
+{
+  "baseline": {
+    "NDCG@10": 0.8911,
+    "Recall@10": 1.0,
+    "MRR@10": 1.0,
+    "median_ranking_latency_ms": 1.73
+  },
+  "hybrid": {
+    "NDCG@10": 0.9614,
+    "Recall@10": 1.0,
+    "MRR@10": 1.0,
+    "median_ranking_latency_ms": 1.64
+  },
+  "benchmark": {
+    "jobs": 72,
+    "profiles": 18,
+    "data_source": "fully synthetic role postings and synthetic relevance labels",
+    "limitation": "Not a production benchmark or evidence of real-user relevance"
+  }
+}
